@@ -7,7 +7,6 @@ import android.util.Log
 import android.widget.LinearLayout
 import android.widget.SeekBar
 import android.widget.TextView
-import com.google.android.material.slider.RangeSlider
 import kotlin.random.Random
 
 class MainActivity : AppCompatActivity() {
