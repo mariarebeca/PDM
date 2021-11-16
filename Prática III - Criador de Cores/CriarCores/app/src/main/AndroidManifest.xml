@@ -11,7 +11,7 @@
         android:theme="@style/Theme.CriarCores">
         <activity
             android:name=".GerarCorActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -20,7 +20,11 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <intent-filter>
+            <action android:name="android.intent.action.VIEW"/>
+            <action android:name="CRIADOR"/>
+            <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
         </activity>
     </application>
-
 </manifest>
